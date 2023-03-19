@@ -308,8 +308,8 @@ h1 {
         overflow: hidden;
         background-color: rgba(17, 16, 16, 0.4);
     }
-	  .portvideo {
-        width: 70%;
+ .portvideo {
+        width: 700px;
         
         padding-top: 10px;
     }
