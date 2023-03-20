@@ -228,8 +228,10 @@ h1 {
 }
 
 .portvideo {
-    width: 70%;
+   max-width: 1024px;
     padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
@@ -239,6 +241,7 @@ h1 {
 
 @media screen and (max-width: 422px) {
   
+    
 
     .menu__a {
        
@@ -268,6 +271,13 @@ h1 {
 
 @media (min-width: 423px) and (max-width: 767px) {
   
+    .portvideo {
+        max-width: 524px;
+        max-height: 300px;
+         padding-top: 10px;
+         padding-left: 10px;
+         padding-right: 10px;
+     }
  
 
     .face__item {
@@ -308,11 +318,7 @@ h1 {
         overflow: hidden;
         background-color: rgba(17, 16, 16, 0.4);
     }
- .portvideo {
-        width: 700px;
-        
-        padding-top: 10px;
-    }
-    
+
+  
     
 }
